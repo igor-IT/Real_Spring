@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean class="com.example.spring_test.spring_middle.bpp.DeprecatedClassAnalizerBeanFactoryPostProcessor"></bean>
+    <bean class="com.example.spring_test.spring_middle.bpp.DeprecatedClassAnalizerBeanFactoryPostProcessor"></bean>
+    <bean class="com.example.spring_test.spring_middle.bpp.BenchmarkBPP"></bean>
+    <bean class="org.springframework.context.annotation.CommonAnnotationBeanPostProcessor"></bean>
+    <bean  class="com.example.spring_test.spring_middle.bpp.InjectRandomInpBeanPostProcessor"></bean>
+</beans>
